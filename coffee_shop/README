@@ -1,0 +1,98 @@
+# Navigate to the project directory:
+
+# bash
+
+# cd coffee_shop
+
+# Classes
+# Customer
+
+#     Attributes:
+#         name (str): Name of the customer.
+#     Methods:
+#         create_order(coffee, price): Creates an order for the customer.
+#         orders(): Returns a list of all orders placed by the customer.
+#         coffees(): Returns a list of all unique coffees ordered by the customer.
+
+# Coffee
+
+#     Attributes:
+#         name (str): Name of the coffee.
+#     Methods:
+#         num_orders(): Returns the number of orders for this coffee.
+#         average_price(): Returns the average price of orders for this coffee.
+#         most_aficionado(): Returns the customer who has spent the most on this coffee.
+
+# Order
+
+#     Attributes:
+#         customer (Customer): The customer who placed the order.
+#         coffee (Coffee): The coffee ordered.
+#         price (float): The price of the order.
+#     Methods:
+#         find_by_customer(customer): Returns all orders placed by a specific customer.
+#         find_by_coffee(coffee): Returns all orders for a specific coffee.
+# Here's a detailed README.md template for your Coffee Shop project. You can customize the content to fit the specifics of your project.
+# Coffee Shop Project
+# Overview
+
+# The Coffee Shop project is a Python-based application that models a coffee shop's operations. It includes functionality for managing customers, coffees, and orders. The application uses object-oriented programming principles to handle relationships between entities and includes a suite of tests to ensure the correctness of its features.
+# Project Structure
+
+# The project follows a simple directory structure:
+
+# bash
+
+# coffee_shop/
+# ├── customer.py        # Contains the Customer class
+# ├── coffee.py          # Contains the Coffee class
+# ├── order.py           # Contains the Order class
+# └── test/
+#     ├── test_customer.py # Contains tests for the Customer class
+#     ├── test_coffee.py   # Contains tests for the Coffee class
+#     └── test_order.py    # Contains tests for the Order class
+
+# Classes
+# Customer
+
+#     Attributes:
+#         name (str): Name of the customer.
+#     Methods:
+#         create_order(coffee, price): Creates an order for the customer.
+#         orders(): Returns a list of all orders placed by the customer.
+#         coffees(): Returns a list of all unique coffees ordered by the customer.
+
+# Coffee
+
+#     Attributes:
+#         name (str): Name of the coffee.
+#     Methods:
+#         num_orders(): Returns the number of orders for this coffee.
+#         average_price(): Returns the average price of orders for this coffee.
+#         most_aficionado(): Returns the customer who has spent the most on this coffee.
+
+# Order
+
+#     Attributes:
+#         customer (Customer): The customer who placed the order.
+#         coffee (Coffee): The coffee ordered.
+#         price (float): The price of the order.
+#     Methods:
+#         find_by_customer(customer): Returns all orders placed by a specific customer.
+#         find_by_coffee(coffee): Returns all orders for a specific coffee.
+
+# TESTING
+#     Tests are located in the test/ directory.
+#     Use PYTHONPATH=. pytest
+#  to run the tests:
+
+#     bash
+
+#**** PYTHONPATH=. pytest***
+
+# DEBUG. PY FILE:
+# debug.py file to test code interaction
+
+#         bash
+
+# *****python debug.py***
